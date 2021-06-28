@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+main {
+  margin: 0;
+  border-right: 1px solid #eff3f4;
+  border-left: 1px solid #eff3f4;
+}
+
+aside {
+  border-right: 1px solid #eff3f4;
+  border-left: 1px solid #eff3f4;
+  background-color: #f7f9f9;
+}
+h2 {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+h1 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #1da1f2;
+}
+
+a {
+  text-decoration: none;
+}
+
+textarea,
+#site-search {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  width: 100%;
+}
+
+.no-border {
+  border: none;
+}
+
+#site-search {
+  background-color: #eceef0;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 1rem;
+}
+
+.button a {
+  color: white;
+  font-weight: bold;
+  font-size: 1.5ch;
+}
+/*Classes*/
+
+.icon-nav {
+  width: 25px;
+}
+
+.nav-icon-list {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.8rem;
+}
+
+.nav-bar {
+  display: grid;
+  place-items: center;
+  gap: 2rem;
+  padding: 1rem 0 0.2rem 1rem;
+}
+
+.icons-main {
+  width: 30px;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.first-box-main {
+  border-bottom: 1px solid #eff3f4;
+  min-height: 40px;
+  display: grid;
+  align-items: center;
+  padding: 0.3rem;
+}
+
+.second-box-main {
+  margin: 1rem;
+}
+
+.color-twitter-blue {
+  color: #1da1f2;
+}
+
+.search-box {
+  padding: 0.4rem 0 0 0.4rem;
+}
+
+.button {
+  background-color: #1da1f2;
+  padding: 0.7rem 4.5rem 0.7rem 4.5rem;
+  border-radius: 2.8rem;
+}
+
+.button-two {
+  background-color: #1da1f2;
+  padding: 0.6rem 1.1rem 0.6rem 1.1rem;
+  border-radius: 2.8rem;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5ch;
+  border: none;
+}
+/*Grids*/
+
+.responsive-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  padding: 0 4rem 0 0rem;
+}
+
+.two-column-grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.two-column-grid-main {
+  display: grid;
+  grid-template-columns: 11fr 1fr;
+  align-items: center;
+  padding: 0.1rem;
+}
+
+.six-column-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 25px) minmax(0, 130px);
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0;
+  justify-items: end;
+}
+
+/*Animations*/
+.icons-main:hover {
+  background-color: #e8f5fe;
+}
